@@ -11,7 +11,7 @@ Declare variables using the keywords 'const' or 'let'
 - How do you initialize (**assign a value to**) a variable?
 By using the assignment operator ( = )
 - What characters are allowed in variable names?
-Letters, digits or $ and _ 'underscore'
+Letters, digits or $ and _ 'underscore', variables cannot start with a number
 - What does it mean to say that variable names are "case sensitive"?
 Variables generally start with a lowercase character, but for variables with multiple words, we use camelCasing.
 - What is the purpose of a string?
