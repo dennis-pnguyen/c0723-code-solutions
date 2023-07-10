@@ -1,6 +1,6 @@
 const fullName = "Dennis Nguyen";
-let isCool = true;
-let totalPets = 4;
+const isCool = true;
+const totalPets = 4;
 
 console.log('value of fullName is:', fullName);
 console.log('value of isCool:', isCool);
