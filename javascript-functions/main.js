@@ -20,7 +20,6 @@ function getArea(width, height){
 const areaResult = getArea(3,15);
 console.log('areaResult:', areaResult);
 
-
 function getFirstName(person){
  return person.firstName;
 };
@@ -31,7 +30,7 @@ console.log('getFirstNameResult:', getFirstNameResult);
 
 function getLastElement(array){
     const lastElement = array.length - 1;
-    return lastElement;
+    return array[lastElement];
 };
 
 const array = ['peaches', 'apples', 'blueberries'];
