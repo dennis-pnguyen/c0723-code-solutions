@@ -21,11 +21,11 @@ const students = [
     'Lill'
 ];
 
-numberOfStudents = students.length; 
+const numberOfStudents = students.length; 
 console.log('There are ' + students.length + ' students in the class.');
 
-lastIndex = numberOfStudents - 1; 
-lastStudent = students[lastIndex];
+const lastIndex = numberOfStudents - 1; 
+const lastStudent = students[lastIndex];
 console.log('The last student in the array is ' + students[lastIndex] + '.');
 console.log('value of students:', students);
 
