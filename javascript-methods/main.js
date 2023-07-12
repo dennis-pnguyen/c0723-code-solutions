@@ -36,11 +36,11 @@ console.log('value of lastBook:', lastBook);
 const firstBook = library.shift();
 console.log('value of firstBook', firstBook);
 
-var js = {
+const js = {
     title: 'JavaScript for Impatient Programmers',
     author: 'Dr. Axel Rauschmayer'
   };
-var css = {
+const css = {
     title: 'CSS Secrets',
     author: 'Lea Verou'
   };
