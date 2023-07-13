@@ -7,69 +7,65 @@
             getValues
  */
 
-function getNumbersToTen(){
-    let numbers = [];
-    let currentNumber = 1;
+function getNumbersToTen() {
+  const numbers = [];
+  let currentNumber = 1;
 
-    while (currentNumber <= 10){
-        numbers.push(currentNumber);
-        currentNumber++;
-    }
-    return numbers;
-};
+  while (currentNumber <= 10) {
+    numbers.push(currentNumber);
+    currentNumber++;
+  }
+  return numbers;
+}
 
-function getEvenNumbersToTwenty(){
-    let evenNumbers = [];
-    let currentNumber = 2;
-    
-    while (currentNumber <= 20){
-        evenNumbers.push(currentNumber);
-        currentNumber+=2;
-    }
-    return evenNumbers;
-};
+function getEvenNumbersToTwenty() {
+  const evenNumbers = [];
+  let currentNumber = 2;
 
-function repeatWord(word, times){
-    let count = 1;
-    let repeated = '';
+  while (currentNumber <= 20) {
+    evenNumbers.push(currentNumber);
+    currentNumber += 2;
+  }
+  return evenNumbers;
+}
 
-    while (count <= times){
-        repeated += word;
-        count++;
-    }
-    return repeated;
-};
+function repeatWord(word, times) {
+  let count = 1;
+  let repeated = '';
 
-function logEachCharacter(string){
+  while (count <= times) {
+    repeated += word;
+    count++;
+  }
+  return repeated;
+}
 
-    for (let i = 0; i < string.length; i++){
-        console.log(string[i]);
-    }
-};
+function logEachCharacter(string) {
+  for (let i = 0; i < string.length; i++) {
+    console.log(string[i]);
+  }
+}
 
-function doubleAll(numbers){
-    let doubled = [];
-    for (let i = 0; i < numbers.length; i++){
-        doubled.push(numbers[i] * 2);
-    }
-    return doubled;
-};
+function doubleAll(numbers) {
+  const doubled = [];
+  for (let i = 0; i < numbers.length; i++) {
+    doubled.push(numbers[i] * 2);
+  }
+  return doubled;
+}
 
-function getKeys(object){
-    let keys = [];
-    for (key in object){
-        keys.push(key)
-    }
-    return keys;
-};
+function getKeys(object) {
+  const keys = [];
+  for (const key in object) {
+    keys.push(key);
+  }
+  return keys;
+}
 
-function getValues(object){
-    let values = [];
-    for (let key in object){
-        if (object.hasOwnProperty(key)){
-            values.push(object[key]);
-        }
-    }
-    return values;
-};
-
+function getValues(object) {
+  const values = [];
+  for (const key in object) {
+    values.push(object[key]);
+  }
+  return values;
+}
