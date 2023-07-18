@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+    <style>
+      p.email {
+        margin: unset;
+      }
+      p.coding {
+        margin: unset;
+      }
+      p.comment {
+        margin: unset;
+      }
+      p.submit {
+        margin: unset;
+      }
+      div {
+        display: inline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Coding Form!</h1>
+    <form action="/my-coding-form-page" method="post">
+      <section>
+        <p class="email">Email</p>
+        <label for="email">
+          <input
+            type="text"
+            id="email"
+            placeholder="yourname@email.com"
+            name="user_email" />
+        </label>
+      </section>
+
+      <section>
+        <p class="coding">Why is coding cool?</p>
+        <select id="coding" name="codingiscool">
+          <option value="selected">Select an option</option>
+          <option>Because it's interesting</option>
+          <option>Because it's fun</option>
+          <option>Because it's powerful</option>
+        </select>
+      </section>
+
+      <section>
+        <p>Favorite Language (choose one)</p>
+        <div>
+          <label for="HTML">
+            <input type="radio" id="html" name="lang" value="html" checked />
+            HTML
+          </label>
+        </div>
+        <div>
+          <label for="CSS">
+            <input type="radio" id="CSS" name="lang" value="css" />
+            CSS
+          </label>
+        </div>
+        <div>
+          <label for="JavaScript">
+            <input
+              type="radio"
+              id="JavaScript"
+              name="lang"
+              value="JavaScript" />
+            JavaScript
+          </label>
+        </div>
+      </section>
+
+      <section>
+        <p>Would you like to sign up for more information?</p>
+        <label for="signup">
+          <input
+            type="checkbox"
+            id="signup"
+            name="signmeup"
+            value="yes"
+            checked />
+          Sign me up!
+        </label>
+      </section>
+
+      <section>
+        <p class="comment">Comments</p>
+        <div>
+          <textarea cols="30" rows="8"></textarea>
+        </div>
+        <p class="submit">
+          <button type="submit">Submit</button>
+        </p>
+      </section>
+    </form>
+  </body>
+</html>
