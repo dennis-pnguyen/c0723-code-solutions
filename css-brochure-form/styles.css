@@ -1,0 +1,50 @@
+h2 {
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: 500;
+  color: #f18984;
+  font-size: medium;
+  box-sizing: border-box;
+  margin-left: 9rem;
+}
+
+div.container {
+  max-width: 550px;
+  margin: 0, auto;
+}
+
+label {
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: 500;
+  font-size: x-small;
+  padding: 0 0 0 1rem;
+  margin: 0 0 0.5rem 0.5rem;
+}
+
+input {
+  width: 23rem;
+  height: 2rem;
+  box-sizing: border-box;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Brandon Grotesque', sans-serif;
+}
+
+select {
+  width: 23rem;
+  height: 2rem;
+  margin-left: 1rem;
+  background-color: #f3f3f3;
+  font-family: 'Brandon Grotesque', sans-serif;
+}
+
+button {
+  background-color: #ec5d58;
+  color: white;
+  font-family: 'Brandon Grotesque', sans-serif;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 16px;
+  width: 5rem;
+  height: 2rem;
+  margin: 0.5rem 0 0 19rem;
+}
