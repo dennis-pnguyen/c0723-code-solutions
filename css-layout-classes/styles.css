@@ -1,17 +1,20 @@
 .container {
   max-width: 800px;
-  margin: 0, auto;
+  margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .row {
   display: flex;
   flex-direction: row;
-  flex-basis: 100%;
   justify-content: space-evenly;
 }
 
 img {
+  width: 100%;
+}
+
+.column-full {
   width: 100%;
 }
 
@@ -24,4 +27,8 @@ img {
 .column-two-thirds {
   width: calc(100% / 2);
   flex-basis: auto;
+}
+
+.column-one-fourth {
+  width: calc(100% / 4);
 }
