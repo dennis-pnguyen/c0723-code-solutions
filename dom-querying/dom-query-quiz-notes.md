@@ -8,7 +8,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   to help with debugging, to show us what object's we're interacting with
 
 - What is a "model"?
-
+  The model represents the logical structure of the document and the way a document is accessed and manipulated. Represented through nodes and elements (branches and leaves).
 - Which "document" is being referred to in the phrase Document Object Model?
   All page content as objects which can be modified
 - What is the word "object" referring to in the phrase Document Object Model?
