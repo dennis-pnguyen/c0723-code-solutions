@@ -1,0 +1,35 @@
+.light-bulb.on {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  width: 250px;
+  margin: 200px auto;
+  border-radius: 50%;
+  box-shadow: #e6d14a;
+  background-color: #faea84;
+}
+
+.image-box.on {
+  display: flex;
+  margin: 0 auto;
+  background-color: lightgoldenrodyellow;
+  box-shadow: #faea84;
+}
+
+.light-bulb.off {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  width: 250px;
+  margin: 200px auto;
+  border-radius: 50%;
+  background-color: #252525;
+  box-shadow: #262525;
+}
+
+.image-box.off {
+  display: flex;
+  margin: 0 auto;
+  background-color: #111;
+  box-shadow: #111;
+}
