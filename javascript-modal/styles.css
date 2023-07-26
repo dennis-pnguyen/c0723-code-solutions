@@ -1,5 +1,5 @@
 .container {
-  position: absolute;
+  position: fixed;
   font-family: sans-serif;
 }
 
@@ -13,8 +13,8 @@
 }
 
 .modal-container {
-  position: fixed;
   display: flex;
+  position: fixed;
   justify-content: center;
   align-items: center;
   opacity: 80%;
@@ -30,7 +30,6 @@
   background-color: white;
   width: 350px;
   height: 150px;
-  position: fixed;
   border-radius: 5px;
   line-height: 3rem;
 }
