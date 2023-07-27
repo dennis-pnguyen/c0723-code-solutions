@@ -1,8 +1,6 @@
 .container {
-  align-items: center;
   font-family: Karla, sans-serif;
   padding: 10px;
-  justify-content: center;
 }
 
 .title {
@@ -36,10 +34,6 @@
   margin-right: 5px;
 }
 
-.img-right {
-  left: 50px;
-}
-
 .col {
   position: relative;
   flex: 50%;
@@ -47,18 +41,8 @@
   padding-right: 60px;
 }
 
-.col-left {
-  float: left;
-  left: 55px;
-}
-
-.col-right {
-  left: 90px;
-}
-
 .benefits {
   position: relative;
-  right: 35px;
   padding-right: 10px;
 }
 
@@ -68,14 +52,6 @@
   line-height: 1.5rem;
   font-size: 15px;
   padding-right: 25px;
-}
-
-.row-mid {
-  top: 20px;
-}
-
-.row-bottom {
-  top: 80px;
 }
 
 .button {
@@ -95,8 +71,4 @@
   text-transform: uppercase;
   background-color: white;
   letter-spacing: 0.5px;
-}
-
-.row-btn {
-  top: 100px;
 }
