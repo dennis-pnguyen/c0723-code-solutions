@@ -67,37 +67,37 @@ const pokedex = [
 ];
 
 function renderPokemon(pokemon) {
-  const columnThird = document.createElement('div');
-  columnThird.setAttribute('class', 'column-third');
+  const $columnThird = document.createElement('div');
+  $columnThird.setAttribute('class', 'column-third');
 
-  const pokemonCard = document.createElement('div');
-  pokemonCard.setAttribute('class', 'pokemon-card');
+  const $pokemonCard = document.createElement('div');
+  $pokemonCard.setAttribute('class', 'pokemon-card');
 
-  const pokeImg = document.createElement('img');
-  pokeImg.setAttribute('src', pokemon.imageUrl);
+  const $pokeImg = document.createElement('img');
+  $pokeImg.setAttribute('src', pokemon.imageUrl);
 
-  const pokeCardText = document.createElement('div');
-  pokeCardText.setAttribute('class', 'pokemon-card-text');
+  const $pokeCardText = document.createElement('div');
+  $pokeCardText.setAttribute('class', 'pokemon-card-text');
 
-  const pokemonTitle = document.createElement('h2');
-  pokemonTitle.textContent = pokemon.name;
+  const $pokemonTitle = document.createElement('h2');
+  $pokemonTitle.textContent = pokemon.name;
 
-  const pokeNumber = document.createElement('h3');
-  pokeNumber.textContent = pokemon.number;
+  const $pokeNumber = document.createElement('h3');
+  $pokeNumber.textContent = '#' + pokemon.number;
 
-  const pokeSummary = document.createElement('p');
-  pokeSummary.textContent = pokemon.description;
+  const $pokeSummary = document.createElement('p');
+  $pokeSummary.textContent = pokemon.description;
 
-  columnThird.appendChild(pokemonCard);
+  $columnThird.appendChild($pokemonCard);
 
-  pokemonCard.appendChild(pokeImg);
-  pokemonCard.appendChild(pokeCardText);
+  $pokemonCard.appendChild($pokeImg);
+  $pokemonCard.appendChild($pokeCardText);
 
-  pokeCardText.appendChild(pokemonTitle);
-  pokeCardText.appendChild(pokeNumber);
-  pokeCardText.appendChild(pokeSummary);
+  $pokeCardText.appendChild($pokemonTitle);
+  $pokeCardText.appendChild($pokeNumber);
+  $pokeCardText.appendChild($pokeSummary);
 
-  return columnThird;
+  return $columnThird;
 }
 
 const $row = document.querySelector('.row');
