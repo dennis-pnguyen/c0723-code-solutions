@@ -15,4 +15,4 @@ class Circle extends Shape {
 }
 
 const circle = new Circle(4);
-console.log('describe(circle):', circle);
+console.log('describe(circle):', circle.describe());

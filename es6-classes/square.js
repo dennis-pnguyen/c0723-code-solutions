@@ -15,4 +15,4 @@ class Square extends Shape {
 }
 
 const square = new Square(5);
-console.log('value of square:', square);
+console.log('value of square:', square.describe());

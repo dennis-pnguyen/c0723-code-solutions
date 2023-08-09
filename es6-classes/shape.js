@@ -12,4 +12,4 @@ class Shape {
 }
 
 const shape = new Shape(5, 10);
-console.log('value of shape.describe():', shape);
+console.log('value of shape.describe():', shape.describe());
