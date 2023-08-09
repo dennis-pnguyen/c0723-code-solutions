@@ -3,14 +3,12 @@
 
 class Square extends Shape {
   constructor(width) {
-    const area = width * width;
-    const perimeter = 4 * width;
-    super(area, perimeter);
+    super(width * width, 4 * width);
     this.width = width;
   }
 
   describe() {
-    return `Shape: ${Square}, Width: ${area}`;
+    return `${super.describe()}, Width: ${this.width}`;
   }
 }
 
