@@ -9,4 +9,4 @@ function getPokemonData(name) {
   xhr.send();
 }
 
-getPokemonData('cubone');
+getPokemonData('mudkip');
