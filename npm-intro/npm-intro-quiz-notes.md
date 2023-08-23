@@ -7,7 +7,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What is NPM?
   Node Package manager for node.js. Its an open source project to help JS developers easily share modules of code.
 - What is a package?
-
+  File or directory that is described by a package.json file
 - What are some other popular package managers?
   YARN, PNMP
 - How can you create a `package.json` with `npm`?
