@@ -39,8 +39,8 @@ function uniqueQuadratic(words) {
       }
     }
     if (isUnique) {
-      // 1 * 1 = O(1)
-      unique[unique.length] = word; // 3 * 1 = O(1)
+      // 1 * n = O(n)
+      unique[unique.length] = word; // 2 * n = O(n)
     }
   }
   return unique; // 1 * 1 = O(1)
