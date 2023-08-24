@@ -5,12 +5,14 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is React?
-
+  React is a front end library for building UI based on components.
 - What is a React component?
-
+  Independent and reusable bits of code.
 - How do you mount a React app (root component) to the DOM?
-
+  ReactDOM.render(<App />, )
 - What are some other popular frontend frameworks?
+  Bootstrap
+  Angular
 
 ## Notes
 
