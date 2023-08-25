@@ -2,7 +2,7 @@ import './App.css';
 import CustomButton from './CustomButton';
 
 function App() {
-  function handleCustomClick({ text }) {
+  function handleCustomClick(text) {
     alert('Clicked on ' + `${text}`);
   }
 
