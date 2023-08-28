@@ -1,0 +1,74 @@
+.container {
+  font-family: Karla, sans-serif;
+  padding: 10px;
+}
+
+.title {
+  text-align: center;
+  margin: auto;
+  width: 700px;
+}
+
+.title-text {
+  font-size: 55px;
+  letter-spacing: 1.5px;
+}
+
+.summary {
+  bottom: 15px;
+  line-height: 1.5rem;
+  position: relative;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  width: 1000px;
+}
+
+.ben-images {
+  position: relative;
+  width: 100px;
+  margin-right: 5px;
+}
+
+.col {
+  position: relative;
+  flex: 50%;
+  margin-right: 20px;
+  padding-right: 60px;
+}
+
+.benefits {
+  position: relative;
+  padding-right: 10px;
+}
+
+.ben-text {
+  position: relative;
+  bottom: 10px;
+  line-height: 1.5rem;
+  font-size: 15px;
+  padding-right: 25px;
+}
+
+.button {
+  border-color: red;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.learn-more-btn {
+  border-color: #d14c44;
+  border: solid 2.5px;
+  font-family: Karla, sans-serif;
+  color: #d14c44;
+  width: 200px;
+  height: 40px;
+  text-transform: uppercase;
+  background-color: white;
+  letter-spacing: 0.5px;
+}
