@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import './ToggleSwitch.css';
 
-export default function ToggleSwitch({ label }) {
+export default function ToggleSwitch() {
   const [toggled, setToggle] = useState(true);
+  let label;
 
   if (toggled) {
     label = 'ON';
