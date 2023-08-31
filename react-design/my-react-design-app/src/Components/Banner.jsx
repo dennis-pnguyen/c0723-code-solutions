@@ -1,3 +1,3 @@
-export default function Banner({ items }) {
-  return <h1>{items}</h1>;
+export default function Banner({ item }) {
+  return <h1>{item}</h1>;
 }

@@ -1,3 +1,7 @@
-export default function PrevButton() {
-  return <button type="button">Prev</button>;
+export default function PrevButton({ prevClick }) {
+  return (
+    <button onClick={prevClick} type="button">
+      Prev
+    </button>
+  );
 }

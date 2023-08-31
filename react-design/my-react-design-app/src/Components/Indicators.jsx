@@ -1,13 +1,14 @@
-export default function Indicator() {
-  // should add back {count, current}
-  return (
-    <>
-      <button type="button">0</button>
-      <button type="button">1</button>
-      <button type="button">2</button>
-      <button type="button">3</button>
-      <button type="button">4</button>
-      <button type="button">5</button>
-    </>
-  );
+export default function Indicator({ count, current, onSelect }) {
+  const buttons = [];
+  for (let i = 0; i < count; i++) {
+    buttons.push(
+      <button
+        key={i}
+        onClick={() => onSelect(i)}
+        style={{ backgroundColor: current === i ? 'lightblue' : undefined }}>
+        {i}
+      </button>
+    );
+  }
+  return <div>{buttons}</div>;
 }
