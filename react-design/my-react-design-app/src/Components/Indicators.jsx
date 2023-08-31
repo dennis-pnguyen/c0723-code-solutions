@@ -1,4 +1,5 @@
 export default function Indicator() {
+  // should add back {count, current}
   return (
     <>
       <button type="button">0</button>
