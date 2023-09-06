@@ -17,7 +17,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - When was Node.js created?
   May 27, 2009
 - What backend languages have you heard of?
-  Ruby on rails, python, SQL, Golang, PHP
+  Ruby on rails, python, SQL, Golang, PHP, C#, C++
 
 ## Notes
 
