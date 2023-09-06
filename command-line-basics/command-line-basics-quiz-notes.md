@@ -5,9 +5,9 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is a CLI?
-
+  command line interface, used for devs to access the shell
 - What is a GUI?
-
+  graphical user interface, such as VS code.
 - Give at least one use case for each of the commands listed in this exercise.
   - `man`
     manual of how 'man' works with explanations of different commands
