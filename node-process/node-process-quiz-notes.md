@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is a computer process?
-  Instance of a computer prgoram that is being executed. almost all processes are rooted in an OS.
+  Instance of a computer program that is being executed. almost all processes are rooted in an OS.
 - Roughly how many computer processes are running on your host operating system (Task Manager or Activity Monitor)?
   too many
 - Why should a full stack Web developer know that computer processes exist?
