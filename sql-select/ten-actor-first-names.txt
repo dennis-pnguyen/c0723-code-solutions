@@ -1,0 +1,14 @@
+ firstName | actorId 
+-----------+---------
+ Penelope  |       1
+ Nick      |       2
+ Ed        |       3
+ Jennifer  |       4
+ Johnny    |       5
+ Bette     |       6
+ Grace     |       7
+ Matthew   |       8
+ Joe       |       9
+ Christian |      10
+(10 rows)
+
