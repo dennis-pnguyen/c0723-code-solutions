@@ -1,0 +1,5 @@
+ filmId | title | description | releaseYear | languageId | originalLanguageId | rentalDuration | rentalRate | length | replacementCost | rating | updatedAt | specialFeatures | fulltext 
+--------+-------+-------------+-------------+------------+--------------------+----------------+------------+--------+-----------------+--------+-----------+-----------------+----------
+(0 rows)
+
+DELETE 0

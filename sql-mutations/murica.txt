@@ -1,0 +1,5 @@
+ countryId | name | updatedAt 
+-----------+------+-----------
+(0 rows)
+
+UPDATE 0
