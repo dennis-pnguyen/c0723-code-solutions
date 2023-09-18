@@ -21,9 +21,6 @@ app.get('/api/grades', async (req, res, next) => {
     const params = [];
     const result = await db.query(sql, params);
     const grade = result.rows;
-    if (!grade) {
-      res.json([]);
-    }
     res.status(200).json(grade);
   } catch (err) {
     console.error(err);
@@ -129,7 +126,7 @@ app.delete('/api/grades/:gradeId', async (req, res, next) => {
     const params = [gradeId];
     const result = await db.query(sql, params);
     const deletedGrade = result.rows[0];
-    if (!deletedGrade) {
+    if (deletedGrade) {
       res.status(204);
     } else {
       res
