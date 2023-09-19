@@ -45,8 +45,6 @@ export default function Todos() {
     } catch (error) {
       console.error(error.message);
       setError(error);
-    } finally {
-      setIsLoading(false);
     }
   }
 
