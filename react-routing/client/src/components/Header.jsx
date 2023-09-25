@@ -8,11 +8,15 @@ export default function Header() {
         <div className="navbar-collapse">
           <ul className="navbar-nav mr-auto">
             {/* TODO: Make these links to About and Catalog, with className "title" */}
-            <li className="title nav-item nav-link">
-              <Link to="/about">About</Link>
+            <li className="nav-item nav-link">
+              <Link to="/about" className="title">
+                About
+              </Link>
             </li>
-            <li className="title nav-item nav-link">
-              <Link to="/">Catalog</Link>
+            <li className="nav-item nav-link">
+              <Link to="/" className="title">
+                Catalog
+              </Link>
             </li>
           </ul>
         </div>

@@ -7,15 +7,13 @@ import { Routes, Route } from 'react-router-dom';
 
 export default function App() {
   return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Header />}>
-          <Route index element={<Catalog />} />
-          <Route path="details/:productId" element={<ProductDetails />} />
-          <Route path="about" element={<About />} />
-          <Route path="*" element={<NotFound />} />
-        </Route>
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<Header />}>
+        <Route index element={<Catalog />} />
+        <Route path="details/:productId" element={<ProductDetails />} />
+        <Route path="about" element={<About />} />
+        <Route path="*" element={<NotFound />} />
+      </Route>
+    </Routes>
   );
 }
