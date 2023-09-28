@@ -7,11 +7,9 @@ export function addToBack(queue, value) {
 }
 
 export function takeFront(queue) {
-  if (queue === 0) return undefined;
   return queue.dequeue();
 }
 
 export function isEmpty(queue) {
-  if (queue.peek() === undefined) return true;
-  return false;
+  return queue.peek() === undefined;
 }
